@@ -14,9 +14,10 @@ button.onclick = function getday(){
    day = date.getDay();
    if(input.value = '' || alldays[day] == undefined){
       alert('please enter a valid date')
-   }else{setTimeout(function(){
+   }else{function(){
+    inpit.value = input.value;  
     result.innerHTML = `${input.value} is ${alldays[day]}` 
-   },5000)
+   }
    joke.innerHTML = jokes[Math.floor(Math.random() * 10)]
    input.onfocus = function(){
    location.reload()
