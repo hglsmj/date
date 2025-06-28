@@ -12,12 +12,10 @@ button.onclick = function getday(){
    date = new Date(input.value);
    alldays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
    day = date.getDay();
-   if(input.value = '' || alldays[day] === undefined){
-      alert('please enter a valid date')
-   }else{
+   
    joke.innerHTML = jokes[Math.floor(Math.random() * 10)]
    result.innerHTML = `${input.value} is ${alldays[day]}`
    input.onfocus = function(){
    location.reload()
    }}
-}
+
