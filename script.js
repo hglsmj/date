@@ -12,7 +12,7 @@ button.onclick = function getday(){
    date = new Date(input.value);
    alldays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
    day = date.getDay();
-   if(input.value = '' || alldays[day] == undefined){
+   if(input.value = ''){
       alert('please enter a valid date')
    }else{
    joke.innerHTML = jokes[Math.floor(Math.random() * 10)]
