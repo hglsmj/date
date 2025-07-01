@@ -18,7 +18,7 @@ button.onclick = function getday(){
       input.value = '';
    }else{
       joke.innerHTML = jokes[Math.floor(Math.random() * 10)]
-      result.innerHTML = `${input.value} is ${alldays[day]}`
+      result.innerHTML = `${date} is ${alldays[day]}`
       input.value = '';
       input.onfocus = function(){
       location.reload()
