@@ -45,3 +45,5 @@ button:hover{
     color: #5b5b5b;
     text-align: center;
 }
+.hide {
+    display:none;
